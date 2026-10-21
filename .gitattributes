@@ -1,0 +1,17 @@
+# 追踪构建产物中的二进制文件
+dist/** filter=lfs diff=lfs merge=lfs -text
+dist/*.dll filter=lfs diff=lfs merge=lfs -text
+dist/*.so filter=lfs diff=lfs merge=lfs -text
+dist/*.so.* filter=lfs diff=lfs merge=lfs -text
+dist/Everywhere filter=lfs diff=lfs merge=lfs -text
+dist/Everywhere.* filter=lfs diff=lfs merge=lfs -text
+dist/Everything.Watchdog filter=lfs diff=lfs merge=lfs -text
+dist/*.json filter=lfs diff=lfs merge=lfs -text
+dist/*.pdb filter=lfs diff=lfs merge=lfs -text
+dist/*.config filter=lfs diff=lfs merge=lfs -text
+
+# 文本文件保持常规跟踪
+README.md text
+NOTICE text
+LICENSE text
+build-logs/** text

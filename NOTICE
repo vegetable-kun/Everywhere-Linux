@@ -1,0 +1,52 @@
+Everywhere — Linux 自构建产物
+================================
+
+本仓库包含 [Sylinko/Everywhere](https://github.com/Sylinko/Everywhere) 项目的
+Linux 平台自包含构建产物（.NET 10 / linux-x64）。
+
+
+来源
+----
+
+* 上游项目：Sylinko/Everywhere
+* 上游 URL：https://github.com/Sylinko/Everywhere
+* 构建分支：dev/linux
+* 源 commit：c3a67026218eba3d7c47674c8884f97a1e919c32
+* 提交日期：2026-02-06 01:46:11 +0800
+* 提交信息：refactor: organize x11 backend directory structures
+* 构建主机：Ubuntu Server 24.04 x86_64
+* .NET SDK：10.0.100
+* 构建命令：
+    dotnet publish src/Everywhere.Linux/Everywhere.Linux.csproj \
+      -c Release -r linux-x64 -o ./publish --self-contained true --no-restore
+* 构建结果：0 errors, 4 warnings
+
+
+非官方声明
+----------
+
+本仓库为**非官方构建**，与 Sylinko Inc. 无关，未获其背书或认可。
+本仓库仅保存自行编译的二进制产物与构建记录，**不构成官方分发渠道**。
+
+产品名称 "Everywhere" 及其相关商标归 Sylinko Inc. 所有。
+
+
+许可证
+------
+
+本仓库中的二进制产物与文档遵循上游项目的 Business Source License 1.1
+（完整文本见 LICENSE 文件）：
+
+* Licensor: Sylinko Inc.
+* Software: The "Everywhere" project and its associated source code,
+  documentation, and components.
+* Change Date: The date four (4) years after the initial public release of
+  this specific version of the Software by the Licensor.
+* Change License: Apache License, Version 2.0.
+
+Additional Use Grant（摘要）：允许内部使用、非商业教育、非商业研究；
+禁止 Competing Use（即不得将本软件作为商业产品或服务提供给他人，
+用以替代本软件或任何功能实质相同的其他产品／服务）。
+
+Change Date 之前，本软件仍受 BSL 约束；到达 Change Date 后按上述
+Change License 转为 Apache-2.0。

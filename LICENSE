@@ -1,0 +1,42 @@
+# Business Source License 1.1
+
+Licensor: Sylinko Inc.
+
+Software: The "Everywhere" project and its associated source code, documentation, and components.
+
+Change Date: The date four (4) years after the initial public release of this specific version of the Software by the Licensor.
+
+Change License: Apache License, Version 2.0
+
+## Additional Use Grant
+
+A Permitted Purpose is any purpose other than a Competing Use.
+
+A Competing Use means making the Software available to others in a commercial product or service that:
+
+- substitutes for the Software;
+- substitutes for any other product or service we offer using the Software that exists as of the date we make the Software available; or
+- offers the same or substantially similar functionality as the Software.
+
+Permitted Purposes specifically include using the Software:
+
+- for your internal use and access;
+- for non-commercial education;
+- for non-commercial research; and
+- in connection with professional services that you provide to a licensee using the Software in accordance with these Terms and Conditions.
+
+## Terms of the Business Source License
+
+1. The Licensor hereby grants you a worldwide, royalty-free, non-exclusive, and sublicensable license to copy, modify, create derivative works of, and distribute the Software, subject to the conditions set forth in this License.
+2. You may use the Software only for the Permitted Purpose allowed above.
+3. On the Change Date, or in the event of a breach of this License by the Licensor, the Software will automatically transition to the Change License (Apache License, Version 2.0). All rights granted under this License prior to the Change Date will continue, and you will also have the rights granted by the Change License.
+4. If you use the Software in a manner not permitted by this License, your rights under this License will terminate automatically.
+5. This License does not grant permission to use the trade names, trademarks, service marks, or product names of the Licensor, except as required for reasonable and customary use in describing the origin of the Software.
+6. Disclaimer of Warranty. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+7. Limitation of Liability. IN NO EVENT SHALL THE LICENSOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY ARISING FROM THE SOFTWARE.
+
+## Grant of Future License
+
+We hereby irrevocably grant you an additional license to use the Software under the Apache License, Version 2.0 that is effective on the fourth anniversary of the date we make the Software available. On or after that date, you may use the Software under the Apache License, Version 2.0, in which case the following will apply:
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
